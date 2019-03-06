@@ -10,16 +10,16 @@ function forLoop(array){
     return array
 }
 
-function incrementVariable() {
-  i = i + 1;
-  return i;
-}
-
 function whileLoop(n){
   while(n>0){
     console.log(--n)
   }
   return 'done'
+}
+
+function incrementVariable() {
+  i = i + 1
+  return i
 }
 
 function doWhileLoop(num){
